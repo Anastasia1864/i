@@ -1,0 +1,50 @@
+public class Main
+{
+	
+		
+    public static void main (String arg[])
+    {
+        
+    
+        int coat=70;
+        int procent1=77;
+        double result1=coat*procent1/100.0;
+        
+        int hat=25;
+        int procent2=37;
+        double result2=hat*procent2/100.0;
+        
+        int suit=53;
+        int procent3=44;
+        double result3=suit*procent3/100.0;
+        
+        int shoes=41;
+        int procent4=32;
+        double result4=shoes*procent4/100.0;
+        
+        int result5 = 19;
+        double sum= result1+result2+result3+result4+result5;
+        
+        
+        
+        if (sum>312) {
+            System.out.println("Сумма больше 312");
+        }
+        else {
+            System.out.println("Сумма меньше или равна 312");
+        }
+        
+        int total = 312;
+        double conclusion = total-sum;
+        
+        System.out.println ("Cумма="+sum);
+        System.out.println ("Остаток монет:"+conclusion);
+        System.out.println(procent1+" процентов от числа "+coat+"="+result1);
+        System.out.println(procent2+" процентов от числа "+hat+"="+result2);
+        System.out.println(procent3+" процента от числа "+suit+"="+result3);
+        System.out.println(procent4+" процента от числа "+shoes+"="+result4);
+        
+    }
+
+	}
+
